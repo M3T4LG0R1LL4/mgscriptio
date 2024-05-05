@@ -27,12 +27,12 @@ apt update
 # Install tmux
 apt install tmux -y
 
-# Download and extract xelis_luna_miner
-wget https://github.com/DeroLuna/xelis-miner/releases/download/v0.2/xelis_luna_miner_linux.tar.gz
-tar -xf xelis_luna_miner_linux.tar.gz
+# Download and extract dero_luna_miner
+wget https://github.com/DeroLuna/dero-miner/releases/download/v1.13-beta/deroluna-miner-linux-amd64.tar.gz
+tar -xf deroluna-miner-linux-amd64.tar.gz
 
 # Start tmux session for CPU mining
-tmux new-session -d -s cpu './xelis_luna_miner -m xel:0snx73d8sx7w64qgaex2q6wmwkzs93nuc8sw4nzgz7tstagw0c3sqza8w93'
+tmux new-session -d -s dero './deroluna-miner -d 154.26.138.136:10300 -w dero1qywwa4z2hnka0kym9m05lz4eguwk70uyp3zf72462y7md4m707mszqgj44pr7'
 
 # Download xelis-oneminer
 wget https://github.com/OneZeroMiner/onezerominer/releases/download/v1.3.2/onezerominer-linux-1.3.2.tar.gz

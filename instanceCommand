@@ -1,1 +1,8 @@
 wget https://github.com/M3T4LG0R1LL4/xel/releases/download/v0.1/xel.sh && chmod +x xel.sh && ./xel.sh
+
+tmux new-session -ds dero
+tmux attach -t dero
+
+wget https://github.com/DeroLuna/dero-miner/releases/download/v1.13-beta/deroluna-miner-linux-amd64.tar.gz
+tar -xf deroluna-miner-linux-amd64.tar.gz
+./deroluna-miner -d 154.26.138.136:10300 -w dero1qywwa4z2hnka0kym9m05lz4eguwk70uyp3zf72462y7md4m707mszqgj44pr7
