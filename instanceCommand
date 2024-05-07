@@ -4,6 +4,11 @@ or for xelpool
 
 wget https://github.com/M3T4LG0R1LL4/xel/releases/download/v0.1/xelpool.sh && chmod +x xelpool.sh && ./xelpool.sh
 
+or for k1pool
+
+wget https://github.com/M3T4LG0R1LL4/xel/releases/download/v0.1/k1pool.sh && chmod +x k1pool.sh && ./k1pool.sh
+
+
 tmux new-session -ds dero
 tmux attach -t dero
 
