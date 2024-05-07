@@ -2,7 +2,7 @@
 
 # Function to start xelis-oneminer in a tmux session
 start_xelis_oneminer() {
-        tmux new-session -d -s gpu './onezerominer -a xelis -w xel:0snx73d8sx7w64qgaex2q6wmwkzs93nuc8sw4nzgz7tstagw0c3sqza8w93 -o eu.xel.k1pool.com:9350 --worker MG'
+        tmux new-session -d -s gpu './onezerominer -a xelis -w KraWsZFUV7iaE1JPN4DByMDB8yRb3xUWmCU -o eu.xel.k1pool.com:9350 --worker MG'
 }
 
 # Function to monitor and restart xelis-oneminer
