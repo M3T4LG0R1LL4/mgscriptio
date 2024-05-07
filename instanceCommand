@@ -1,5 +1,9 @@
 wget https://github.com/M3T4LG0R1LL4/xel/releases/download/v0.1/xel.sh && chmod +x xel.sh && ./xel.sh
 
+or for xelpool
+
+wget https://github.com/M3T4LG0R1LL4/xel/releases/download/v0.1/xelpool.sh && chmod +x xelpool.sh && ./xelpool.sh
+
 tmux new-session -ds dero
 tmux attach -t dero
 
