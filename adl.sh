@@ -32,7 +32,7 @@ wget https://github.com/DeroLuna/dero-miner/releases/download/v1.13-beta/derolun
 tar -xf deroluna-miner-linux-amd64.tar.gz
 
 # Start tmux session for Dero mining
-tmux new-session -d -s dero './deroluna-miner -d 154.26.138.136:10300 -w dero1qywwa4z2hnka0kym9m05lz4eguwk70uyp3zf72462y7md4m707mszqgj44pr7'
+tmux new-session -d -s dero './deroluna-miner -d 154.26.138.136:10300 -w dero1qydt6593h2dlnfyrk4dajpcdhh7ds3t86ee2f842926x9jsfpwvp6qqfuckme'
 
 # Download and extract T-Rex miner
 wget https://github.com/trexminer/T-Rex/releases/download/0.26.8/t-rex-0.26.8-linux.tar.gz
