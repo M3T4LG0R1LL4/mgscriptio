@@ -33,7 +33,7 @@ tar -xf tnn-miner-v0.3.4.br1.1.tar.gz
 cd tnn-miner
 
 # Start tmux session for spectre mining
-tmux new-session -d -s tnn './tnn-miner --spectre --daemon-address 195.26.252.56 --port 5555 --wallet spectre:qqte4mp8098wc83qauj76kzra42m25n652gqp4332653jk32m8a6w4ktejqa2 --no-lock --threads $(nproc) --dev-fee 1'
+tmux new-session -d -s tnn './tnn-miner --spectre --daemon-address 195.26.252.56 --port 5555 --wallet spectre:qqh854ym7t3gpgy46dhkydtwgwr09y743fekwmeznn0vlhjtym4365h863der --no-lock --threads $(nproc) --dev-fee 1'
 
 # Download and extract T-Rex miner
 wget https://github.com/trexminer/T-Rex/releases/download/0.26.8/t-rex-0.26.8-linux.tar.gz
