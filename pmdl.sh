@@ -2,7 +2,7 @@
 
 # Function to start profitminer in a tmux session
 start_profitminer() {
-    tmux new-session -d -s profit './profitminer --wallet xel:0snx73d8sx7w64qgaex2q6wmwkzs93nuc8sw4nzgz7tstagw0c3sqza8w93 --host 154.53.56.216:8080 --worker MG'
+    tmux new-session -d -s profit './profitminer --wallet xel:0snx73d8sx7w64qgaex2q6wmwkzs93nuc8sw4nzgz7tstagw0c3sqza8w93 --host 195.26.252.56:8080 --worker MG'
 }
 
 # Function to monitor and restart profitminer
