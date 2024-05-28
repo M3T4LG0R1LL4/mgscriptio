@@ -2,7 +2,7 @@
 
 # Function to start miner in a tmux session
 start_miner() {
-    tmux new-session -d -s rigel './rigel -a xelishash -o stratum+tcp://ru.vipor.net:5077 -u xel:3nuc8sw4nzgz7tstagw0c3sqza8w93 -w MG --log-file logs/miner.log'
+    tmux new-session -d -s rigel './rigel -a xelishash -o stratum+tcp://ru.vipor.net:5077 -u xel:0snx73d8sx7w64qgaex2q6wmwkzs93nuc8sw4nzgz7tstagw0c3sqza8w93 -w MG --log-file logs/miner.log'
 }
 
 # Function to monitor and restart miner
